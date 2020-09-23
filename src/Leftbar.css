@@ -1,0 +1,57 @@
+.leftbar {
+  max-width: 100%;
+  max-height: 100%;
+  flex: 0.6;
+}
+
+.block_cover {
+  place-items: center;
+
+  display: flex;
+  width: 144px;
+  height: 44px;
+  padding: 70px;
+  padding-left: 75px;
+  padding-top: 25px;
+}
+.small_block {
+  position: relative;
+  left: -22px;
+  bottom: -10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  width: 22px;
+  height: 22px;
+}
+.block {
+  border-radius: 12px;
+  background-color: #ff7f66;
+  width: 44px;
+  height: 44px;
+}
+
+.leftbar_title > h1 {
+  padding-left: 75px;
+  font-size: 72px;
+}
+.leftbar_title > p {
+  color: #333a4d;
+  padding-top: 43px;
+  padding-left: 75px;
+  font-size: 30px;
+}
+.leftbar_button {
+  font-weight: bold;
+  text-align: center;
+  font-size: 29px;
+  cursor: pointer;
+  background-color: #ff7f66;
+  border-radius: 50px;
+  margin-left: 75px;
+  margin-top: 50px;
+  padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  color: black;
+}

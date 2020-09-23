@@ -1,0 +1,20 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.app_body {
+  display: flex;
+  min-width: 1000px;
+  min-height: 90vh;
+  flex-wrap: wrap;
+  padding-bottom: 5px;
+}
+.app_body_left {
+  flex: 0.6;
+}
+.footer {
+  min-height: 10vh;
+}
+.app_body_right {
+  flex: 0.4;
+}

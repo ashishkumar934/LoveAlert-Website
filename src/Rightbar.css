@@ -1,0 +1,23 @@
+.rightbar {
+  padding-right: 25px;
+  flex: 0.4;
+  max-width: 100%;
+  max-height: 100%;
+}
+.rightbar_navigation {
+  display: flex;
+  font-family: serif;
+  justify-content: space-around;
+  padding-top: 33px;
+  padding-bottom: 50px;
+}
+
+.rightbar_image > img {
+  position: relative;
+  min-width: 450px;
+  min-height: 400px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

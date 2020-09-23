@@ -1,0 +1,40 @@
+.footer_main {
+  display: flex;
+  min-width: 1000px;
+  background-color: #ff7f66;
+}
+.footer {
+  display: flex;
+  flex: 0.5;
+  margin: 0px;
+  background-color: black;
+}
+
+.video_icon {
+  padding-top: 30px;
+  padding-left: 75px;
+  filter: invert(1);
+}
+.video_icon > .MuiSvgIcon-root {
+  transform: scale(1.4);
+}
+.footer_text {
+  padding-top: 30px;
+  color: white;
+  padding-left: 16px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.footer_link {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 0.5;
+}
+.footer_link > a > .MuiSvgIcon-root {
+  padding-top: 30px;
+  padding-right: 32px;
+}
+.footer_link > a > img {
+  padding-top: 30px;
+  padding-right: 80px;
+}
